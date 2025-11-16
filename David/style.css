@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif;
+}
+
+.firepizza {
+    display: block;
+}
+
+.Pizza {
+    opacity: 40%;
+    width: 100%;
+}
+
+header {
+    background-color: #717171;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    background-color: #717171;
+    margin-left: 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.slogan {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pizza1 {
+    height: 132px;
+    width: 197px;
+    border-radius: 31px;
+    margin-bottom: 120px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    font-family: 'Advent Pro';
+}
+
+.vidhyku {
+    padding-right: 110px;
+}
+
+.margarita {
+    display: flex;
+}
+
+span {
+    font-family: 'Advent Pro';
+    margin-left: 300px;
+}
+
+.margarita-text {
+    margin-left: 120px;
+}
+
+.salami {
+    display: flex;
+}
+
+.pizza4 {
+    margin-bottom: 30px;
+    width: 194px;
+    height: 129px;
+    border-radius: 31px;
+}
+
+.cheese4 {
+    display: flex;
+}
+
+.gawaii {
+    display: flex;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.home {
+    display: flex;
+}
+
+h4 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+iframe {
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.adress {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+}
+
+.pin {
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+}
+
+.addres {
+    display: flex;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(5, 59, 9);
+}
+
+.pizza_text {
+    background-color: #083510;
+    color: beige;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.comment {
+    border-top: #083510 solid 2px;
+    border-bottom: #083510 solid 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.top {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

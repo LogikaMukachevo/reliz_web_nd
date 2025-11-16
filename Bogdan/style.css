@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: brown;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo {
+    height: 50px;
+}
+
+header a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.product-card {
+    background-color: white;
+    border: 2px solid black;
+
+    width: 300px;
+    margin: 15px;
+
+    padding: 10px;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-title.orange {
+    color: orange;
+}
+
+.product-title.coral {
+    color: lightcoral;
+}
+
+.product-title.red {
+    color: red;
+}
+
+.product-title.green {
+    color: green;
+}
+
+.product-desc {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-tags span {
+    background-color: #EEEEEE;
+    padding: 5px;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.sale-badge {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.rating {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.btn {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
+
+
+.review {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.review h3 {
+    margin: 0;
+}
+
+.review-rating {
+    font-size: 20px;
+    color: #E6B800;
+    margin: 0;
+}
+
+.more-reviews-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}

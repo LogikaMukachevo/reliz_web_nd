@@ -1,0 +1,234 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+
+a {
+    color: #0086ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #0086ff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.4em;
+}
+h2 {
+    font-size: 1.8em;
+}
+
+
+header .w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+   
+}
+
+header .w h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+
+nav {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+   
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+   
+}
+
+.download{
+    background-color: #fff;
+}
+
+.download:hover{
+    background-color: #fff;
+}
+
+
+nav a {
+    background-color: #0086ff;
+    color: white;
+    margin: 0 15px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #0078e6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 134, 255, 0.3);
+    text-decoration: none;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    
+   
+}
+
+.pochatok {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.n {
+    text-align: center;
+    flex: 1;
+}
+.nn {
+    flex: 1;
+    text-align: center;
+}
+.nn img {
+    max-width: 100%;
+    height: auto;
+}
+.n h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 0;
+}
+.n p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+main img.a,
+main img.x {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.tg-channels {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.tg-channels a {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.tg-channels a:hover {
+    color: #0056b3;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100px;
+    height: 100px;
+}
+.card h2 {
+    color: #0086ff;
+    margin: 10px 0 5px;
+    font-size: 1.3em;
+}
+.card p {
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+.highlight {
+    font-weight: bold;
+    color: #333;
+}
+
+.menu_footer{
+    text-align: center;
+    margin-bottom: 50px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    padding: 30px;
+}
